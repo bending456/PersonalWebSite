@@ -1,4 +1,11 @@
-title: "Ben Chun Prtfolio"
+# Auxiliary links for the upper right hand corner
+aux_links:
+  "LinkedIn":
+  - "www.linkedin.com/in/byeongjae-ben-chun-745b551b"
+  "Contact Ben":
+  - "bending456@gmail.com"
+
+title: Ben Chun Portfolio
 theme: jekyll-theme-hyde
 
 navigation:
