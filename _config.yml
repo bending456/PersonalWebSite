@@ -1,19 +1,27 @@
-# Auxiliary links for the upper right hand corner
-aux_links:
-  "LinkedIn":
-  - "www.linkedin.com/in/byeongjae-ben-chun-745b551b"
-  "Contact Ben":
-  - "bending456@gmail.com"
+title: "Ben Chun Portfolio"
+description: "Chemical Engineer | Computational Biologist | AI Enthusiast"
+baseurl: ""
+url: "https://ben-chun.github.io"
 
-title: Ben Chun Portfolio
-theme: jekyll-theme-hyde
+theme: minimal-mistakes-jekyll
 
-navigation:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
-  - title: "Contact"
-    url: /contact/
+author:
+  name: "Byeongjae (Ben) Chun"
+  avatar: "/assets/images/profile.jpg"  # Optional
+  bio: "Technical Lead | Chemical Engineering | Molecular Simulation"
+
+plugins:
+  - jekyll-include-cache
+
+# Sidebar nav setup
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "main"
+
+markdown: kramdown

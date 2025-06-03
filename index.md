@@ -1,6 +1,7 @@
 ---
-title: Introduction
-permalink: /
-nav_order: 1
+layout: home
+author_profile: true
+title: "Welcome"
 ---
-# Introduction
+
+Welcome to my professional portfolio! I'm Byeongjae (Ben) Chun — a chemical engineer with deep expertise in molecular modeling, pharmaceutical process development, and computational biology.
